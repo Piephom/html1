@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--Matt Piepho 4/9/22--> 
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <style>
+        @media screen and ( max-width:600px ) {
+            body { background: blue; }
+        }
+        .grid-container {
+        display: grid;
+        gap: 10px;
+        background-color: #b421f3;
+        padding: 20px;
+        }
+
+        .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 30px;
+        font-size: 30px;
+        }
+
+        .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        }
+
+        .item2 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+        }
+
+        .item5 {
+        grid-column: 1 / span 3;
+        grid-row: 3;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>  
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+    </div>
+</body>
+</html>
