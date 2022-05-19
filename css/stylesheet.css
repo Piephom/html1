@@ -144,17 +144,17 @@
     }
 
     @media only screen and (min-width: 600px) {
-      .text {color: green;}
+      .foot {color: green;}
     }
     
     @media only screen and (min-width: 768px) {
-      .text {color: blue;}
+      .foot {color: blue;}
     } 
     
     @media only screen and (min-width: 992px) {
-      .text {color: black;}
+      .foot {color: black;}
     } 
     
     @media only screen and (min-width: 1024px) {
-      .text {color: purple;}
+      .foot {color: purple;}
     }
