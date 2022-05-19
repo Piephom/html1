@@ -143,3 +143,19 @@
         border: 1px solid #ccc;  
       }
     }
+
+    @media only screen and (min-width: 600px) {
+      .text {color: green;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .text {color: blue;}
+    } 
+    
+    @media only screen and (min-width: 992px) {
+      .text {color: orange;}
+    } 
+    
+    @media only screen and (min-width: 1024px) {
+      .text {color: pink;}
+    }
