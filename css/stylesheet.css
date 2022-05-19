@@ -152,9 +152,9 @@
     } 
     
     @media only screen and (min-width: 992px) {
-      .text {color: orange;}
+      .text {color: black;}
     } 
     
     @media only screen and (min-width: 1024px) {
-      .text {color: pink;}
+      .text {color: purple;}
     }
